@@ -46,7 +46,7 @@ class MetaMaskTransport extends Transport {
     const notifications = getNotifications(r);
     try {
       this.extensionPort?.postMessage({
-        type: "caip-x",
+        type: "caip-348",
         data: dataRequestWithIds,
       });
       this.transportRequestManager.settlePendingRequest(notifications);
